@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">figo</string>
+    <string name="not_permission_gps">Please, turn on the GPS</string>
+    <string name="action_directions">Directions</string>
+    <string name="action_call">Call</string>
+    <string name="action_visit_website">Visit Website</string>
+    <string name="distance_place">%1$s m.</string>
 </resources>
