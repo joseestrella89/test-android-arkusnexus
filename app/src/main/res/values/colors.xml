@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="starActived">#FFA300</color>
+    <color name="starNormal">#DFDFE1</color>
+    <color name="title_place">#2C6085</color>
+    <color name="attribute_place">#8C969D</color>
+    <color name="description_action">#DFDFE1</color>
+    <color name="distance_place">#7F888F</color>
 </resources>

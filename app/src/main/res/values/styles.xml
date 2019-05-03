@@ -7,5 +7,75 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/starNormal</item>
+        <item name="colorControlActivated">@color/starActived</item>
+    </style>
+    <style name="SmallRatingBar" parent="android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="ImagePlace">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="TitlePlace">
+        <item name="android:textColor">@color/title_place</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="AddressPlace">
+        <item name="android:textColor">@color/attribute_place</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ContainerItemPlace">
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="ContainerDescriptionItemPlace">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="IconAction">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="IconActionGo">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="TitlePlaceView">
+        <item name="android:textColor">@color/title_place</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="AddressPlaceView">
+        <item name="android:textColor">@color/attribute_place</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="DistancePlaceView">
+        <item name="android:textColor">@color/description_action</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">18dp</item>
+    </style>
+    <style name="AddressPlaceViewTwo">
+        <item name="android:textColor">@color/attribute_place</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+    <style name="ActionTitle">
+        <item name="android:textColor">@color/attribute_place</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="ActionDescription">
+        <item name="android:textColor">@color/description_action</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ContainerActionDescription">
+        <item name="android:layout_margin">10dp</item>
+    </style>
 </resources>
