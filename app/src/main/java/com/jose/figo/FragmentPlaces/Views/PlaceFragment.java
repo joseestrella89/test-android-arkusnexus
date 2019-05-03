@@ -17,6 +17,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -78,7 +79,9 @@ public class PlaceFragment extends Fragment implements OnMapReadyCallback{
     @Override
     public void onMapReady(GoogleMap googleMap) {
         LatLng placePoint = new LatLng(place.getLatitude(), place.getLongitude());
-        googleMap.addMarker(new MarkerOptions().position(placePoint).title(place.getName()));
+        MarkerOptions marker = new MarkerOptions().position(placePoint).title(place.getName());
+        marker.icon(BitmapDescriptorFactory.fromResource(R.mipmap.pinselected));
+        googleMap.addMarker(marker);
         LatLngBounds.Builder builder = new LatLngBounds.Builder();
         builder.include(placePoint);
         LatLngBounds bounds = builder.build();

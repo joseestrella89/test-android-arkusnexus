@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD7EdWWXtY1WHtJv2KWgLdjLr7s5TysD_o"/>
+            android:value="token_for_maps"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

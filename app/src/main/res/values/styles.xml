@@ -57,15 +57,14 @@
         <item name="android:layout_marginTop">8dp</item>
     </style>
     <style name="DistancePlaceView">
-        <item name="android:textColor">@color/description_action</item>
+        <item name="android:textColor">@color/attribute_place</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginTop">18dp</item>
     </style>
     <style name="AddressPlaceViewTwo">
         <item name="android:textColor">@color/attribute_place</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingBottom">40dp</item>
     </style>
     <style name="ActionTitle">
         <item name="android:textColor">@color/attribute_place</item>

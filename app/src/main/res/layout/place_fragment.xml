@@ -64,6 +64,7 @@
 
         <LinearLayout
             android:id="@+id/layout_route"
+            android:paddingTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
