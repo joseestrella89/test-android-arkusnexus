@@ -70,7 +70,7 @@ public class ListPlacesPresenterImpl implements ListPlacesPresenter {
         }
         for(int i = 0; i < sizeList - 1; i++){
             for(int j = 0; j < sizeList - 1; j++){
-                if (placesDistance.get(j).getDistance() < placesDistance.get(j+1).getDistance()){
+                if (placesDistance.get(j).getDistance() > placesDistance.get(j+1).getDistance()){
                     Place tmp = placesDistance.get(j+1);
                     placesDistance.set(j+1, placesDistance.get(j));
                     placesDistance.set(j, tmp) ;
